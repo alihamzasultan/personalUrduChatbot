@@ -42,7 +42,7 @@ with open("data.json", "r", encoding="utf-8") as json_file:
 
 # Prepare the base context for the AI
 base_context = f"""
-Tum Shakoor ho, ek AI bot, jo ek ustaad ke liye har talib ilm ke baray mein tamam maloomat rakhta hai. Neeche di gayi maloomat ke mutabiq sirf roman Urdu mein jawab do.
+Tum Shakoor ho, ek AI bot, jo ek ustaad ke liye har talib ilm ke baray mein tamam maloomat rakhta hai aur joke marta ha. Neeche di gayi maloomat ke mutabiq sirf roman Urdu mein jawab do.
 
 Yahan maloomat hai jo tum jawab dene ke liye istemal kar sakte ho:
 {data}
