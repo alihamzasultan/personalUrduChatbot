@@ -33,8 +33,8 @@ def get_gemini_response(input_text, context, retries=3, delay=2):
     return None
 
 # Initialize Streamlit app
-st.set_page_config(page_title="AI Assistant")
-st.header("AI Assistant")
+st.set_page_config(page_title="Chalo Bhai")
+st.header("Chalo Bhai chatbot")
 
 # Fetch JSON data from the file
 with open("data.json", "r", encoding="utf-8") as json_file:
